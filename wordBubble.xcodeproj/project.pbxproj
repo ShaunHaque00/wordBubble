@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6542A81B7298AE00D2A752 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6542A71B7298AE00D2A752 /* Game.m */; };
+		1C6542AA1B729A9E00D2A752 /* Bubble (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6542A91B729A9E00D2A752 /* Bubble (1).png */; };
+		1C6542AB1B72A0FB00D2A752 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C6542A61B7298AE00D2A752 /* Game.h */; };
+		1C6542AC1B72A0FC00D2A752 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C6542A61B7298AE00D2A752 /* Game.h */; };
+		1C6542AD1B72A0FF00D2A752 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6542A71B7298AE00D2A752 /* Game.m */; };
+		1C6542AE1B72BC5D00D2A752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC67611B6FAA440047A509 /* ViewController.m */; };
+		1C7AA7951B715C96007B26A0 /* black background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AA7941B715C96007B26A0 /* black background.jpeg */; };
+		1C7B6B5C1B71152400A4FE2E /* -cloud-blue-white-cartoon-clouds-sky-free-nature.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B5B1B71152400A4FE2E /* -cloud-blue-white-cartoon-clouds-sky-free-nature.png */; };
+		1C7B6B5E1B71174700A4FE2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B6B5D1B71174700A4FE2E /* AudioToolbox.framework */; };
+		1C7B6B621B71189500A4FE2E /* F1_light_blue_flag.svg (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B611B71189500A4FE2E /* F1_light_blue_flag.svg (1).png */; };
+		1C7B6B641B711CC600A4FE2E /* bubblepop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B631B711CC600A4FE2E /* bubblepop.mp3 */; };
+		1C7B6B651B711D8000A4FE2E /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC67601B6FAA440047A509 /* ViewController.h */; };
+		1C7B6B661B711D8100A4FE2E /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC67601B6FAA440047A509 /* ViewController.h */; };
+		1C7B6B681B71211B00A4FE2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B6B671B71211B00A4FE2E /* CoreGraphics.framework */; };
+		1C7B6B6A1B71212C00A4FE2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B6B691B71212C00A4FE2E /* Foundation.framework */; };
+		1C7B6B6C1B71213A00A4FE2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B6B6B1B71213A00A4FE2E /* UIKit.framework */; };
+		1C7B6B701B71360D00A4FE2E /* gropuphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B6F1B71360D00A4FE2E /* gropuphoto.jpg */; };
+		1C7B6B781B714A8800A4FE2E /* Word Bubble Logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B771B714A8800A4FE2E /* Word Bubble Logo (1).png */; };
+		1C7B6B891B71591C00A4FE2E /* whitetobluebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B6B881B71591C00A4FE2E /* whitetobluebackground.jpg */; };
+		1CDC675C1B6FAA440047A509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC675B1B6FAA440047A509 /* main.m */; };
+		1CDC675F1B6FAA440047A509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC675E1B6FAA440047A509 /* AppDelegate.m */; };
+		1CDC67621B6FAA440047A509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC67611B6FAA440047A509 /* ViewController.m */; };
+		1CDC67651B6FAA440047A509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC67631B6FAA440047A509 /* Main.storyboard */; };
+		1CDC67671B6FAA440047A509 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC67661B6FAA440047A509 /* Images.xcassets */; };
+		1CDC676A1B6FAA440047A509 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC67681B6FAA440047A509 /* LaunchScreen.xib */; };
+		1CDC67761B6FAA440047A509 /* wordBubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC67751B6FAA440047A509 /* wordBubbleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CDC67701B6FAA440047A509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDC674E1B6FAA440047A509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CDC67551B6FAA440047A509;
+			remoteInfo = wordBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C6542A61B7298AE00D2A752 /* Game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		1C6542A71B7298AE00D2A752 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		1C6542A91B729A9E00D2A752 /* Bubble (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bubble (1).png"; path = "../Bubble (1).png"; sourceTree = "<group>"; };
+		1C7AA7941B715C96007B26A0 /* black background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black background.jpeg"; sourceTree = "<group>"; };
+		1C7B6B5B1B71152400A4FE2E /* -cloud-blue-white-cartoon-clouds-sky-free-nature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-cloud-blue-white-cartoon-clouds-sky-free-nature.png"; sourceTree = "<group>"; };
+		1C7B6B5D1B71174700A4FE2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1C7B6B611B71189500A4FE2E /* F1_light_blue_flag.svg (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F1_light_blue_flag.svg (1).png"; sourceTree = "<group>"; };
+		1C7B6B631B711CC600A4FE2E /* bubblepop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubblepop.mp3; sourceTree = "<group>"; };
+		1C7B6B671B71211B00A4FE2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C7B6B691B71212C00A4FE2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C7B6B6B1B71213A00A4FE2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C7B6B6F1B71360D00A4FE2E /* gropuphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gropuphoto.jpg; sourceTree = "<group>"; };
+		1C7B6B771B714A8800A4FE2E /* Word Bubble Logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Word Bubble Logo (1).png"; sourceTree = "<group>"; };
+		1C7B6B881B71591C00A4FE2E /* whitetobluebackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whitetobluebackground.jpg; path = ../whitetobluebackground.jpg; sourceTree = "<group>"; };
+		1CDC67561B6FAA440047A509 /* wordBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDC675A1B6FAA440047A509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDC675B1B6FAA440047A509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CDC675D1B6FAA440047A509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CDC675E1B6FAA440047A509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CDC67601B6FAA440047A509 /* ViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ViewController.h; sourceTree = "<group>"; };
+		1CDC67611B6FAA440047A509 /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CDC67641B6FAA440047A509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CDC67661B6FAA440047A509 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CDC67691B6FAA440047A509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CDC676F1B6FAA440047A509 /* wordBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDC67741B6FAA440047A509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDC67751B6FAA440047A509 /* wordBubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordBubbleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CDC67531B6FAA440047A509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7B6B6C1B71213A00A4FE2E /* UIKit.framework in Frameworks */,
+				1C7B6B6A1B71212C00A4FE2E /* Foundation.framework in Frameworks */,
+				1C7B6B681B71211B00A4FE2E /* CoreGraphics.framework in Frameworks */,
+				1C7B6B5E1B71174700A4FE2E /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDC676C1B6FAA440047A509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDC674D1B6FAA440047A509 = {
+			isa = PBXGroup;
+			children = (
+				1C7B6B6B1B71213A00A4FE2E /* UIKit.framework */,
+				1C7B6B691B71212C00A4FE2E /* Foundation.framework */,
+				1C7B6B671B71211B00A4FE2E /* CoreGraphics.framework */,
+				1C7B6B5D1B71174700A4FE2E /* AudioToolbox.framework */,
+				1CDC67581B6FAA440047A509 /* wordBubble */,
+				1CDC67721B6FAA440047A509 /* wordBubbleTests */,
+				1CDC67571B6FAA440047A509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDC67571B6FAA440047A509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDC67561B6FAA440047A509 /* wordBubble.app */,
+				1CDC676F1B6FAA440047A509 /* wordBubbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CDC67581B6FAA440047A509 /* wordBubble */ = {
+			isa = PBXGroup;
+			children = (
+				1CDC675D1B6FAA440047A509 /* AppDelegate.h */,
+				1CDC675E1B6FAA440047A509 /* AppDelegate.m */,
+				1CDC67601B6FAA440047A509 /* ViewController.h */,
+				1CDC67611B6FAA440047A509 /* ViewController.m */,
+				1C6542A61B7298AE00D2A752 /* Game.h */,
+				1C6542A71B7298AE00D2A752 /* Game.m */,
+				1CDC67631B6FAA440047A509 /* Main.storyboard */,
+				1CDC67681B6FAA440047A509 /* LaunchScreen.xib */,
+				1CDC67661B6FAA440047A509 /* Images.xcassets */,
+				1CDC67591B6FAA440047A509 /* Supporting Files */,
+			);
+			path = wordBubble;
+			sourceTree = "<group>";
+		};
+		1CDC67591B6FAA440047A509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6542A91B729A9E00D2A752 /* Bubble (1).png */,
+				1C7AA7941B715C96007B26A0 /* black background.jpeg */,
+				1C7B6B5B1B71152400A4FE2E /* -cloud-blue-white-cartoon-clouds-sky-free-nature.png */,
+				1C7B6B611B71189500A4FE2E /* F1_light_blue_flag.svg (1).png */,
+				1C7B6B6F1B71360D00A4FE2E /* gropuphoto.jpg */,
+				1C7B6B771B714A8800A4FE2E /* Word Bubble Logo (1).png */,
+				1C7B6B881B71591C00A4FE2E /* whitetobluebackground.jpg */,
+				1C7B6B631B711CC600A4FE2E /* bubblepop.mp3 */,
+				1CDC675A1B6FAA440047A509 /* Info.plist */,
+				1CDC675B1B6FAA440047A509 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CDC67721B6FAA440047A509 /* wordBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CDC67751B6FAA440047A509 /* wordBubbleTests.m */,
+				1CDC67731B6FAA440047A509 /* Supporting Files */,
+			);
+			path = wordBubbleTests;
+			sourceTree = "<group>";
+		};
+		1CDC67731B6FAA440047A509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CDC67741B6FAA440047A509 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CDC67551B6FAA440047A509 /* wordBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDC67791B6FAA440047A509 /* Build configuration list for PBXNativeTarget "wordBubble" */;
+			buildPhases = (
+				1CDC67521B6FAA440047A509 /* Sources */,
+				1CDC67531B6FAA440047A509 /* Frameworks */,
+				1CDC67541B6FAA440047A509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordBubble;
+			productName = wordBubble;
+			productReference = 1CDC67561B6FAA440047A509 /* wordBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CDC676E1B6FAA440047A509 /* wordBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDC677C1B6FAA440047A509 /* Build configuration list for PBXNativeTarget "wordBubbleTests" */;
+			buildPhases = (
+				1CDC676B1B6FAA440047A509 /* Sources */,
+				1CDC676C1B6FAA440047A509 /* Frameworks */,
+				1CDC676D1B6FAA440047A509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDC67711B6FAA440047A509 /* PBXTargetDependency */,
+			);
+			name = wordBubbleTests;
+			productName = wordBubbleTests;
+			productReference = 1CDC676F1B6FAA440047A509 /* wordBubbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CDC674E1B6FAA440047A509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mohammad Haque";
+				TargetAttributes = {
+					1CDC67551B6FAA440047A509 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1CDC676E1B6FAA440047A509 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1CDC67551B6FAA440047A509;
+					};
+				};
+			};
+			buildConfigurationList = 1CDC67511B6FAA440047A509 /* Build configuration list for PBXProject "wordBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CDC674D1B6FAA440047A509;
+			productRefGroup = 1CDC67571B6FAA440047A509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CDC67551B6FAA440047A509 /* wordBubble */,
+				1CDC676E1B6FAA440047A509 /* wordBubbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CDC67541B6FAA440047A509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDC67651B6FAA440047A509 /* Main.storyboard in Resources */,
+				1C7B6B781B714A8800A4FE2E /* Word Bubble Logo (1).png in Resources */,
+				1C7B6B5C1B71152400A4FE2E /* -cloud-blue-white-cartoon-clouds-sky-free-nature.png in Resources */,
+				1C6542AA1B729A9E00D2A752 /* Bubble (1).png in Resources */,
+				1C7B6B701B71360D00A4FE2E /* gropuphoto.jpg in Resources */,
+				1CDC676A1B6FAA440047A509 /* LaunchScreen.xib in Resources */,
+				1CDC67671B6FAA440047A509 /* Images.xcassets in Resources */,
+				1C7B6B891B71591C00A4FE2E /* whitetobluebackground.jpg in Resources */,
+				1C7B6B641B711CC600A4FE2E /* bubblepop.mp3 in Resources */,
+				1C7AA7951B715C96007B26A0 /* black background.jpeg in Resources */,
+				1C7B6B621B71189500A4FE2E /* F1_light_blue_flag.svg (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDC676D1B6FAA440047A509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDC67521B6FAA440047A509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6542A81B7298AE00D2A752 /* Game.m in Sources */,
+				1CDC67621B6FAA440047A509 /* ViewController.m in Sources */,
+				1C6542AB1B72A0FB00D2A752 /* Game.h in Sources */,
+				1C7B6B651B711D8000A4FE2E /* ViewController.h in Sources */,
+				1CDC675F1B6FAA440047A509 /* AppDelegate.m in Sources */,
+				1CDC675C1B6FAA440047A509 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDC676B1B6FAA440047A509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDC67761B6FAA440047A509 /* wordBubbleTests.m in Sources */,
+				1C7B6B661B711D8100A4FE2E /* ViewController.h in Sources */,
+				1C6542AC1B72A0FC00D2A752 /* Game.h in Sources */,
+				1C6542AD1B72A0FF00D2A752 /* Game.m in Sources */,
+				1C6542AE1B72BC5D00D2A752 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CDC67711B6FAA440047A509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CDC67551B6FAA440047A509 /* wordBubble */;
+			targetProxy = 1CDC67701B6FAA440047A509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CDC67631B6FAA440047A509 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDC67641B6FAA440047A509 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CDC67681B6FAA440047A509 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDC67691B6FAA440047A509 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CDC67771B6FAA440047A509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CDC67781B6FAA440047A509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CDC677A1B6FAA440047A509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wordBubble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CDC677B1B6FAA440047A509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wordBubble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CDC677D1B6FAA440047A509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wordBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordBubble.app/wordBubble";
+			};
+			name = Debug;
+		};
+		1CDC677E1B6FAA440047A509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wordBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordBubble.app/wordBubble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDC67511B6FAA440047A509 /* Build configuration list for PBXProject "wordBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDC67771B6FAA440047A509 /* Debug */,
+				1CDC67781B6FAA440047A509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDC67791B6FAA440047A509 /* Build configuration list for PBXNativeTarget "wordBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDC677A1B6FAA440047A509 /* Debug */,
+				1CDC677B1B6FAA440047A509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDC677C1B6FAA440047A509 /* Build configuration list for PBXNativeTarget "wordBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDC677D1B6FAA440047A509 /* Debug */,
+				1CDC677E1B6FAA440047A509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CDC674E1B6FAA440047A509 /* Project object */;
+}
