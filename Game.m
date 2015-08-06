@@ -14,6 +14,12 @@
 
 @implementation Game
 
+-(IBAction) PlayAudioButton:(id)sender {
+    AudioServicesPlaySystemSound(PlaySoundID);
+}
+
+
+
 - (void)viewDidLoad {
     NSURL *SoundURL = [NSURL fileURLWithPath: [[NSBundle mainBundle] pathForResource:@"bubblepop" ofType:@"mp3"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef) SoundURL, &PlaySoundID);
